@@ -31,8 +31,6 @@ def turn(board)
     index = input_to_index(user_input)
     if move(board, index)
       break
-    else
-      puts "Invalid move!"
     end
   end
   display_board(board)
